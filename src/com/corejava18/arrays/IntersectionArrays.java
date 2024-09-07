@@ -9,8 +9,8 @@ public class IntersectionArrays {
         System.out.println("Efficiently Finding the Intersection of Two Arrays in Java;Problem Statement\n" +
                 "Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must appear as many times as it shows in both arrays, and you may return the result in any order.");
 
-        int [] num1Array = new int[]{1,2,3,4,3};
-        int [] num2Array = new int[]{2,3,4};
+        int [] num1Array = new int[]{1,2,1};
+        int [] num2Array = new int[]{2,2};
         int [] finalResultArray =intersectTwoArrays(num1Array,num2Array);
 
         String str = new String(Arrays.toString(finalResultArray));
